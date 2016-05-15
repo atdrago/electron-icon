@@ -7,11 +7,14 @@
   "license": "MIT",
   "scripts": {
     "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron .",
-    "icon": "iconutil -c icns negative.iconset"
+    "icon": "iconutil -c icns negative.iconset",
+    "postinstall": "./node_modules/.bin/electron-rebuild"
+
   },
   "author": "Adam Drago",
   "dependencies": {
-    "electron-window": "^0.8.0"
+    "electron-window": "^0.8.0",
+    "nodobjc": "^2.1.0"
   },
   "devDependencies": {
     "electron-prebuilt": "^1.0.2",
@@ -20,5 +23,7 @@
   "engines": {
     "node": ">=4.x <=5.x"
   },
-  "os": [ "darwin" ]
+  "os": [
+    "darwin"
+  ]
 }
