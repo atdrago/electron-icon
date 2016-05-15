@@ -30,3 +30,7 @@ node_modules
 
 # Mac
 .DS_Store
+
+# Generated Files
+negative.iconset
+negative.icns
