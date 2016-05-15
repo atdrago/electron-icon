@@ -1,5 +1,4 @@
-# Negative Icon
+# <img src="negative.iconset/icon_64x64@2x.png" width="64" height="64" /> Negative Icon
 
 > The icon for Negative app.
 
-![negative icon](negative.iconset/icon_128x128.png)
