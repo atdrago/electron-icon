@@ -27,10 +27,10 @@ div {
 
 div:before {
 	content: '';
-	width: 91%; /* 950 */
-	height: 91%; /* 950 */
+	width: 91%;
+	height: 91%;
 	border-radius: 100%;
-	background-image: radial-gradient(circle at 50% 0%, #FD9188 0%, #F4596D 100%);
+	background-image: radial-gradient(circle at 50% 0%, #0BA692 0%, #026E77 100%);
 }
 
 div:after {
