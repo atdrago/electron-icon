@@ -15,15 +15,14 @@ div:after {
 }
 
 div {
-	
-	background-image: radial-gradient(circle at 50% 0%, #fff 0%, #eee 100%);
+	background-image: radial-gradient(circle at 50% 0%, #fff 0%, #ddd 100%);
 	border-radius: 100%;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 	-webkit-app-region: drag;
 	-webkit-user-select: none;
 	
-	width: 95%; /* 1010 */
-	height: 95%; /* 1010 */
+	width: 86%; 
+	height: 86%; 
 }
 
 div:before {
@@ -37,9 +36,9 @@ div:before {
 div:after {
 	content: '';
 	opacity: 1;
-	background-color: #fff;
+	background-color: #EBEBEB;
 	width: 33%;
-	height: 5%;
+	height: 5.5%;
 	border-radius: 20px;
 }
 
@@ -47,14 +46,6 @@ div:after {
 	div:before {
 		width: 90%;
 		height: 90%;
-	}
-}
-
-@media (max-width: 32px) {
-	div {
-		box-shadow: none;
-		width: 100%;
-		height: 100%;
 	}
 }
 
