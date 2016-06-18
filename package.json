@@ -9,7 +9,7 @@
     "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron .",
     "icon": "iconutil -c icns app.iconset"
   },
-  "author": "Adam Drago",
+  "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
   "dependencies": {
     "electron-window": "^0.8.0"
   },
