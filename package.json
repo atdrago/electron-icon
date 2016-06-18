@@ -1,24 +1,20 @@
 {
-  "name": "NegativeIcon",
+  "name": "ElectronIcon",
   "version": "0.1.0",
-  "description": "An app for making visual comparisons.",
+  "description": "An app for making icons from CSS.",
   "main": "lib/main.js",
   "repository": "https://github.com/atdrago/negative-icon.git",
   "license": "MIT",
   "scripts": {
     "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron .",
-    "icon": "iconutil -c icns negative.iconset",
-    "postinstall": "./node_modules/.bin/electron-rebuild"
-
+    "icon": "iconutil -c icns app.iconset"
   },
   "author": "Adam Drago",
   "dependencies": {
-    "electron-window": "^0.8.0",
-    "nodobjc": "^2.1.0"
+    "electron-window": "^0.8.0"
   },
   "devDependencies": {
-    "electron-prebuilt": "^1.0.2",
-    "electron-rebuild": "^1.1.3"
+    "electron-prebuilt": "^1.2.3"
   },
   "engines": {
     "node": ">=4.x <=5.x"
