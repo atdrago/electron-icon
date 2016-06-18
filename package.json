@@ -1,7 +1,7 @@
 {
   "name": "ElectronIcon",
   "version": "0.1.0",
-  "description": "An app for making icons from CSS.",
+  "description": "An app for making icons using CSS.",
   "main": "lib/main.js",
   "repository": "https://github.com/atdrago/negative-icon.git",
   "license": "MIT",
