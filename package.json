@@ -11,7 +11,8 @@
   },
   "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
   "dependencies": {
-    "electron-window": "^0.8.0"
+    "electron-window": "^0.8.0",
+    "icon-gen": "^1.0.2"
   },
   "devDependencies": {
     "electron-prebuilt": "^1.2.3"
