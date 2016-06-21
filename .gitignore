@@ -32,5 +32,6 @@ node_modules
 .DS_Store
 
 # Generated Files
-app.iconset
+png
 app.icns
+app.ico
