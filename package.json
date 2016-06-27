@@ -6,8 +6,7 @@
   "repository": "https://github.com/atdrago/negative-icon.git",
   "license": "MIT",
   "scripts": {
-    "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron .",
-    "icon": "iconutil -c icns app.iconset"
+    "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron ."
   },
   "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
   "dependencies": {
