@@ -11,14 +11,14 @@
   "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
   "dependencies": {
     "electron-window": "^0.8.0",
-    "icon-gen": "^1.0.3",
+    "icon-gen": "^1.0.4",
     "jimp": "^0.2.24"
   },
   "devDependencies": {
     "electron-prebuilt": "^1.2.3"
   },
   "engines": {
-    "node": ">=4.x <=5.x"
+    "node": ">=6.x"
   },
   "os": [
     "darwin"
